@@ -19,6 +19,12 @@
   <!-- jsPDF via CDN (UMD build) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
+  <!-- Vercel Speed Insights -->
+  <script>
+    window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/speed-insights/script.js"></script>
+
   <style>
     /* ═══════════════════════════════════════════
        RESET & BASE
@@ -158,7 +164,7 @@
 
     /* ═══════════════════════════════════════════
        FLOATING LEAVES OVERLAY
-    ════════════════════════════════════════════ */
+    ══════════════════════════════════════════���═ */
     #leaves-overlay {
       position: fixed; inset: 0;
       pointer-events: none; z-index: 50;
@@ -749,7 +755,7 @@
 
     /* ═══════════════════════════════════════════
        CTA SECTION
-    ════════════════════════════════════════════ */
+    ══════════════════════════��═════════════════ */
     .cta-section {
       position: relative; z-index: 2;
       padding: 4rem 1.5rem; text-align: center;
